@@ -184,18 +184,6 @@ function Landing() {
         <h1>Weather Forecast</h1>
       </div>
 
-      <div className={LandingCss.text}>
-        <h3>Over and above Superior Accuracy, we deliver Superior Value to help people understand the impact of weather and make the best decisions.
-        In study after study 
-has been proven as the most statistically accurate source of weather
-forecasts and warnings. Our over 100 expert meteorologists plus designers,
-writers, developers all collaborate to bring the weather forecast to life for our
-users, partners and corporate clients.
-QuickWeather’s foundation of Superior Accuracy is further enhanced and expanded with the best communication, wording, detail and displays ensuring that important weather forecasts, warnings, news and information are more useful than other sources and easily understood.
-QuickWeather’s forecasts and warnings focus on the impact to people and businesses, so they can make the best weather-impacted decisions. A storm producing 2-3 inches of snow may prove insignificant in one geography and bring another to a complete standstill.
-Turning the most accurate weather forecasts into actionable insights to increase safety, reduce liability and losses, minimize risk and drive efficiency.
-        </h3>
-      </div>
 
       <div className={LandingCss.display}>
         <div className={LandingCss.search}>
@@ -213,7 +201,7 @@ Turning the most accurate weather forecasts into actionable insights to increase
           </div>        
     
       </div>
-      <div className={LandingCss.contact}>
+      {/* <div className={LandingCss.contact}>
         <div>
           <h3>Any Feedback Or Contact Us ... </h3>
         </div>
@@ -234,7 +222,7 @@ Turning the most accurate weather forecasts into actionable insights to increase
           </div>
         </div>
 
-      </div>
+      </div> */}
     </div>
   );
 }
