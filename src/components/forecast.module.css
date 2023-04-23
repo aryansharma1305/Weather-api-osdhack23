@@ -1,0 +1,86 @@
+.container{
+    position: absolute;
+    left: 1rem;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    width: 96%;
+    height: 98%;
+    /* background-color: aquamarine; */
+    /* padding: 0.5rem; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1.5fr 1fr;
+    /* grid-auto-rows: minmax(222px,auto); */
+    grid-gap: 0.5rem;
+    justify-content: center;
+    
+}
+.items{
+    /* position: relative; */
+    color: black;
+    text-align: center;
+    border-radius: 1.5rem;
+    background-color: rgba(250, 235, 215, 0.236);
+    /* height: 20vh; */
+    /* font-size: 1rem; */
+}
+
+.items h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+}
+p{
+    font-size: 2vh;
+    font-weight: bold;
+}
+.place p {
+    color: rgb(30, 63, 63);
+    font-size: 1.5vw;
+
+}
+.weather p{
+    color: rgb(0, 0, 0);
+    font-weight:600;
+    font-size: 1.6vh;
+    font-family:sans-serif;
+
+}
+span{
+    color: rgb(109, 74, 74);
+}
+.data{
+    /* position: absolute; */
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    
+    /* background-color: antiquewhite */
+    
+}
+.icons img{
+    
+    height: 5rem;
+    width: 5rem;
+}
+#item1{
+    grid-column: 1/3;
+    min-height: 29.5vh;
+    min-width: 16vw;
+}
+#item2{
+
+    text-align: center;
+    min-height: 29.5vh;
+    min-width: 24.5vw;
+    grid-column: 3/-1;
+}
+#item3,#item4,#item5,#item6,#item7{
+    min-height: 21vh;
+    min-width: 7.8vw;
+}
+    
+    
+
